@@ -1,0 +1,35 @@
+    body {
+        background-color: beige;
+    }
+    
+    img {
+        max-width: 100%;
+        display: inline-block;
+        float: right;
+        margin: 7px 0 7px 7px;
+    }
+    /* Для средних устройств (планшеты) */
+    
+    @media (min-width: 420px) {
+        img {
+            max-width: 48%;
+        }
+    }
+    /* Для больших устройств (ноуты, пк) */
+    
+    @media (min-width: 760px) {
+        img {
+            max-width: 24%;
+        }
+    }
+    
+    @media only screen and (max-width: 570px) {
+        ul li {
+            display: inline-block;
+            padding-left: 15px;
+            width: 140px;
+            background-position: -5px 0px;
+            margin-right: 6px;
+            line-height: 1.7em;
+        }
+    }
