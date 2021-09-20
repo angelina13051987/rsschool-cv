@@ -2,20 +2,24 @@
         background-color: beige;
     }
     
+    pre {
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        text-align: justify;
+    }
+    
     img {
         max-width: 100%;
         display: inline-block;
         float: right;
         margin: 7px 0 7px 7px;
     }
-    /* Для средних устройств (планшеты) */
     
     @media (min-width: 420px) {
         img {
             max-width: 48%;
         }
     }
-    /* Для больших устройств (ноуты, пк) */
     
     @media (min-width: 760px) {
         img {
